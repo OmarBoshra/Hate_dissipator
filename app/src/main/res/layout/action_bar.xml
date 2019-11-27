@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+   >
+
+
+
+<Button
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+android:id="@+id/choose"
+    android:text="Choose someOne/someThing you hate"
+    android:textColor="@color/colorAccent"
+    android:typeface="monospace"
+android:gravity="center"
+    android:layout_gravity="center"
+    android:drawableEnd="@android:drawable/ic_menu_close_clear_cancel"
+    android:layout_marginEnd="4dp"
+    android:background="@android:color/white"
+    android:layout_weight="1"
+    android:textAllCaps="false"
+android:onClick="choiceDialog"
+    />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weapons"
+        android:text="More weapons"
+        android:textColor="@color/colorAccent"
+        android:typeface="monospace"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:drawableEnd="@android:drawable/ic_menu_compass"
+        android:background="@android:color/white"
+android:textAllCaps="false"
+        android:onClick="supportDeveloper"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

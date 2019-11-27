@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="peaceColor">#02A752</color>
+
+
+
+    <!-- vector color asset -->
+
+    <color name="c1">#0f2374</color>
+    <color name="c2">#010112</color>
+    <color name="c3">#11266a</color>
+    <color name="c4">#091d61</color>
+    <color name="c5">#2e6e82</color>
+    <color name="c6">#010110</color>
+
+</resources>

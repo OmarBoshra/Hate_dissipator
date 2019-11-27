@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.osarious.unknotyourhate"
+        minSdkVersion 20
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.tests.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        resConfigs "en"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), "proguard-rules.pro"
+
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.github.tarek360.RichPath:animator:0.1.1'
+    implementation  'com.mafstech.libs:mafs-image-shape:1.0.4'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+
+}

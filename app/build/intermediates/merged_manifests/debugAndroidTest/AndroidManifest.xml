@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.osarious.unknotyourhate.test">
+
+    <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="29" />
+
+    <application android:debuggable="true" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+
+    <instrumentation android:name="androidx.tests.test.runner.AndroidJUnitRunner"
+                     android:targetPackage="com.osarious.unknotyourhate"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.osarious.unknotyourhate"/>
+</manifest>

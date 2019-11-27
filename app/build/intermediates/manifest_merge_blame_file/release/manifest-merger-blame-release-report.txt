@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.osarious.unknotyourhate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Acer\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:icon="@mipmap/dissipate_icon"
+14-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:7:9-46
+15        android:label="@string/app_name"
+15-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:9:9-41
+16        android:roundIcon="@mipmap/dissipate_icon"
+16-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:10:9-51
+17        android:supportsRtl="true"
+17-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:11:9-35
+18        android:theme="@style/AppTheme" >
+18-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:12:9-40
+19        <activity
+19-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:13:9-20:20
+20            android:name="com.osarious.unknotyourhate.MainActivity"
+20-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:13:19-74
+21            android:screenOrientation="portrait" >
+21-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:13:75-111
+22            <intent-filter>
+22-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:15:13-19:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:16:17-69
+23-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:16:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:18:17-77
+25-->C:\Users\Acer\Pictures\mobile-code-challenge-solution-android\UnKnotYourHate\app\src\main\AndroidManifest.xml:18:27-74
+26            </intent-filter>
+27        </activity>
+28    </application>
+29
+30</manifest>
